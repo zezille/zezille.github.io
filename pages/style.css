@@ -1,7 +1,80 @@
-body{
-    /* background light-gray */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-    background: green;
+body {
+    background-color: #FFEB3B;  /* Ярко-желтый фон */
+    color: #111;  /* Темный цвет текста для контраста */
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;  /* Черный цвет заголовков для контраста */
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 20px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+}
+
+a:hover {
+    color: #ff5733;
+    border-bottom: 2px solid #ff5733;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+footer p {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
 }
